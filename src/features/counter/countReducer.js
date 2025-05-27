@@ -24,7 +24,6 @@ const reset = (data) => {
 };
 
 // make a reducer function
-
 const countReducer = (state = initialValue, action) => {
   switch (action.type) {
     case "INCREMENT": {
