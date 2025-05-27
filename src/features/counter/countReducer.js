@@ -1,3 +1,4 @@
+// make a action for redux
 const initialValue = {
   value: 0,
 };
