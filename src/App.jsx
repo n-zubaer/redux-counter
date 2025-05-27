@@ -13,6 +13,7 @@ const App = () => {
           <input
             type="number"
             className="py-2 px-2 border border-gray-400 rounded outline-none"
+            placeholder="Type here...."
             onChange={(e) => setinputValue(e.target.value)}
           />
           <span className="text-3xl flex justify-center"> {value} </span>
